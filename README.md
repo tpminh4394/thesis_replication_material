@@ -1,7 +1,14 @@
-# thesis_replication_material
-This repository contains the replication code for the results in the thesis. There are three code files in total
-1_process_data.R: This file contains the importing and processing raw data (the actual data for ESS rounds can be found in https://ess.sikt.no/en/
-2_MI_verification_factor_score.R: This file contains the functions for automated verification of measurement invariance and calculation of the factor score 
-3_regression_all.R: This file contains regression model to estimate the movement of values during COVID-19
+## Replication Materials
 
-Three files should be run in order to replicate the results
+This repository contains three code files:
+
+1. **`1_process_data.R`**  
+   Imports and processes the raw data. The actual ESS round data can be accessed at [https://ess.sikt.no/en/](https://ess.sikt.no/en/).
+
+2. **`2_MI_verification_factor_score.R`**  
+   Contains functions for automated verification of measurement invariance and calculation of factor scores.
+
+3. **`3_regression_all.R`**  
+   Contains the regression models used to estimate the movement of values during COVID-19.
+
+To replicate the results, run the files in the order listed above.
